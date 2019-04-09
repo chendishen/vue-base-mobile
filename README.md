@@ -1,6 +1,6 @@
 # yeb
 
-> 宜尔宝的基础框架
+> vue的基础框架
 
 ## Build Setup
 
