@@ -2,10 +2,14 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h2>{{count}}</h2>
-    <button @click="add(1)">vuex+</button>
-    <button @click="reduce">vuex-</button>
-    <button @click="test">普通方法</button>
-    <button @click="getArticleById">接口方法</button>
+    <button @click="showToastTimeAdd" class="btn-test">vuex+</button>
+    <button @click="showToastTimeReduce" class="btn-test">vuex-</button>
+    <button @click="test" class="btn-test">普通方法</button>
+    <!-- <cube-button @click="showToastTime"></cube-button> -->
+    <cube-button
+    @click="getArticleById"
+    :light="true"
+    class="btn-test cubeic-like">接口方法</cube-button>
   </div>
 </template>
 
@@ -24,8 +28,9 @@ export default {
       msg: "前端框架搭建测试",
       reponseData: "",
       loading: false,
-      method: "getArticleById",
-      id: ""
+      // method: "getArticleById",
+      id: "",
+      num: "",
     };
   },
   methods: {
@@ -48,21 +53,36 @@ export default {
       //加载完毕关闭加载
       this.loading = false;
     },
-    addParams(){
-      let {role} = this.form
-      return {role}
-    },
-    // async auth(){
-    //   try{
-    //     let res = await auth({...this.})
-    //   }catch(err){
+    showToastTimeAdd(){
+      this.num = String(this.count)
+      const toast = this.$createToast({
+        time: 1000,
+        txt: this.num
+      })
 
-    //   }
-    // }
+      this.add(1)
+      toast.show()
+
+    },
+    showToastTimeReduce() {
+      this.num = String(this.count)
+      const toast = this.$createToast({
+        time: 0,
+        txt: this.num,
+      })
+      this.reduce()
+      toast.show()
+      setTimeout(() => {
+        toast.hide()
+      }, 2000)
+    }
   },
   computed: mapState({
     count: state => state.count
   }),
+  mounted:function(){
+
+  },
   store
 };
 </script>
@@ -74,5 +94,12 @@ button {
   width: 2rem;
   height: 1rem;
   color: blue;
+}
+
+.btn-test{
+  width: 50%;
+  text-align: center;
+  float: left;
+  border: 1px solid gold;
 }
 </style>

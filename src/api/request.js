@@ -50,6 +50,7 @@ export default function request(method, url, data) {  // 暴露 request 给我�
       params: data
     })
   }
+  //暂时知道的是只用get、post
   // else if (method === 'delete') {
   //   return axios.delete(url, {
   //     params: data
