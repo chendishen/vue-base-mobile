@@ -10,19 +10,27 @@
 > 配置了vue-router
 
 > src-|
+
       |
+
       api-|
+
           |android.js     ##安卓原生接口列表的js
+
           |xxx.js         ##xxx对应vue组件名称，用以存储对应组件的api事件的js
+
           |request.js     ##请求方法，封装api接口及拦截器的js+
+
       |
-      |
+
       assets-|
+
       |
-      |
+
       components-|        ##存储对应vue组件的地方
+
       |
-      |
+
       router-|            ##路由
       |
       |
