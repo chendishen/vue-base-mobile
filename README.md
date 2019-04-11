@@ -1,8 +1,12 @@
 # yeb
 
+<<<<<<< HEAD
 > 移动端vue的基础框架
 
 > create by D.S.
+=======
+> 移动端vue项目的基础框架
+>>>>>>> 0471ff71f81d5090e913aea8aca0c9cc0a512724
 
 ## Build Setup
 
