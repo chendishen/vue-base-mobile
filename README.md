@@ -1,6 +1,8 @@
 # yeb
 
-> 宜尔宝的基础框架
+> 移动端vue的基础框架
+
+> create by D.S.
 
 ## Build Setup
 

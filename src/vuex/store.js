@@ -9,7 +9,9 @@ const state={
     hasError:false,
     status:'',
     statusText:''
-  }
+  },
+  // token状态
+  Authorization : localStorage.getItem('Authorization') ? localStorage.getItem('Authorization'):''
 }
 
 const mutations={
@@ -21,6 +23,10 @@ const mutations={
   },
   ON_HTTP_ERROR(state,payload){
     state.httpError = payload
+  },
+  changeLogin(state,user){
+    state.Authorization = user.Authorization;
+    localStorage.setItem('Authorization',user.Authorization);
   }
 }
 
