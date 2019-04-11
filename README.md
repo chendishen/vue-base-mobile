@@ -16,23 +16,17 @@
           |xxx.js         ##xxx对应vue组件名称，用以存储对应组件的api事件的js
           |request.js     ##请求方法，封装api接口及拦截器的js+
       |
-      |
       assets-|
-      |
       |
       components-|        ##存储对应vue组件的地方
       |
-      |
       router-|            ##路由
       |
-      |
       style-|             ##存储公共样式表
-      |
       |
       utils-|             ##工具
             |throwErr.js  ##拦截接口异常事件
             |ziti.js      ##调整移动端字体font-size 暂未启用
-      |
       |
       vuex- |
             |store.js     ##状态管理器，包括了state,mutation，用于存储token用户状态
