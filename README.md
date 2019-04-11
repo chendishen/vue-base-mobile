@@ -8,28 +8,28 @@
 > 使用vw作为移动端适配配置，直接写设计图的px单位可自动适配设备
 > 配置了vuex状态管理器，
 > 配置了vue-router
-
-##  src-|
-##      |
-##      api-|
-##          |android.js     ##安卓原生接口列表的js
-##          |xxx.js         ##xxx对应vue组件名称，用以存储对应组件的api事件的js
-##          |request.js     ##请求方法，封装api接口及拦截器的js+
-##      |
-##      assets-|
-##      |
-##      components-|        ##存储对应vue组件的地方
-##      |
-##      router-|            ##路由
-##      |
-##      style-|             ##存储公共样式表
-##      |
-##      utils-|             ##工具
-##            |throwErr.js  ##拦截接口异常事件
-##            |ziti.js      ##调整移动端字体font-size 暂未启用
-##      |
-##      vuex- |
-##            |store.js     ##状态管理器，包括了state,mutation，用于存储token用户状态
+<br>
+  src-|<br>
+      |<br>
+      api-|<br>
+          |android.js     ##安卓原生接口列表的js<br>
+          |xxx.js         ##xxx对应vue组件名称，用以存储对应组件的api事件的js<br>
+          |request.js     ##请求方法，封装api接口及拦截器的js+<br>
+      |<br>
+      assets-|<br>
+      |<br>
+      components-|        ##存储对应vue组件的地方<br>
+      |<br>
+      router-|            ##路由<br>
+      |<br>
+      style-|             ##存储公共样式表<br>
+      |<br>
+      utils-|             ##工具<br>
+            |throwErr.js  ##拦截接口异常事件<br>
+            |ziti.js      ##调整移动端字体font-size 暂未启用<br>
+      |<br>
+      vuex- |<br>
+            |store.js     ##状态管理器，包括了state,mutation，用于存储token用户状态<br>
 
 
 
