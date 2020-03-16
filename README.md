@@ -10,13 +10,14 @@
 > 配置了vue-router
 <br>
 
-
+```
+.
 ├─.babelrc
 ├─.editorconfig
 ├─.eslintignore
 ├─.eslintrc.js
 ├─.gitignore
-├─.postcssrc.js          ##配置css插件于此
+├─.postcssrc.js          //配置css插件于此
 ├─index.html
 ├─package-lock.json
 ├─package.json
@@ -42,30 +43,30 @@
 ├─src
 |  ├─App.vue
 |  ├─main.js
-|  ├─vuex                 ##状态管理器，测试
+|  ├─vuex                 //状态管理器，测试
 |  |  └store.js
-|  ├─utils                ##工具
-|  |   ├─StorageUtils.js  ##缓存工具类
-|  |   ├─throwErr.js      ##服务异常工具类
+|  ├─utils                //工具
+|  |   ├─StorageUtils.js  //缓存工具类
+|  |   ├─throwErr.js      //服务异常工具类
 |  |   └ziti.js
-|  ├─style                ##存储公共样式表
+|  ├─style                //存储公共样式表
 |  |   └common.scss
-|  ├─store                ##状态管理器，存储登录状态
+|  ├─store                //状态管理器，存储登录状态
 |  |   ├─index.js
 |  |   ├─mutation-types.js
 |  |   ├─modules
 |  |   |    ├─common.js
 |  |   |    └user.js
-|  ├─router               ##路由
+|  ├─router               //路由
 |  |   └index.js
-|  ├─components           ##存储对应vue组件的地方
+|  ├─components           //存储对应vue组件的地方
 |  |     └HelloWorld.vue
 |  ├─assets
 |  |   └logo.png
 |  ├─api
-|  |  ├─android.js        ##安卓原生接口列表的js
-|  |  ├─api.js            ##用以存储对应组件的api接口事件的js
-|  |  └request.js         ##请求方法，封装api接口及拦截器的js
+|  |  ├─android.js        //安卓原生接口列表的js
+|  |  ├─api.js            //用以存储对应组件的api接口事件的js
+|  |  └request.js         //请求方法，封装api接口及拦截器的js
 ├─config
 |   ├─dev.env.js
 |   ├─index.js
@@ -80,7 +81,8 @@
 |   ├─webpack.base.conf.js
 |   ├─webpack.dev.conf.js
 |   └webpack.prod.conf.js
-
+.
+```
 
 
 ## Build Setup
