@@ -11,29 +11,17 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-<<<<<<< HEAD
       '/sns': {
         target: 'https://api.weixin.qq.com/sns', //目标域名和端口：微信网页授权
         changeOrigin: true,
         pathRewrite: {
           '/sns': ''
-=======
-      '/supbookMng': {
-        target: 'http://supbookapi.supmiao.com', //目标域名和端口
-        changeOrigin: true,
-        pathRewrite: {
-          '^/supbookMng': '/supbookMng'
->>>>>>> ae01644e9b3a8cf71a3a29a2da248fb92d2ed9cd
         }
       },
     },
 
     // Various Dev Server settings
-<<<<<<< HEAD
     host: 'localhost', // can be overwritten by process.env.HOST
-=======
-    host: '192.168.31.59', // can be overwritten by process.env.HOST
->>>>>>> ae01644e9b3a8cf71a3a29a2da248fb92d2ed9cd
     port: 8080, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
     autoOpenBrowser: true,
     errorOverlay: true,
