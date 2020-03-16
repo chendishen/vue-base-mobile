@@ -16,13 +16,10 @@ Vue.use(Cube)
 
 import App from './App'
 import router from './router'
-<<<<<<< HEAD
 import {StorageUtils} from './utils/StorageUtils'
 window.StorageUtils = StorageUtils
 import store from './store/index'
 
-=======
->>>>>>> ae01644e9b3a8cf71a3a29a2da248fb92d2ed9cd
 
 Vue.config.productionTip = false
 
