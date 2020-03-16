@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # vue-vuex-axios-webpack
+=======
+# yeb
+>>>>>>> ae01644e9b3a8cf71a3a29a2da248fb92d2ed9cd
 
 > 移动端vue项目的基础框架
 
@@ -9,6 +13,7 @@
 > 配置了vuex状态管理器，
 > 配置了vue-router
 <br>
+<<<<<<< HEAD
 
 
 ├─.babelrc
@@ -80,6 +85,31 @@
 |   ├─webpack.base.conf.js
 |   ├─webpack.dev.conf.js
 |   └webpack.prod.conf.js
+=======
+  src-|<br>
+      |<br>
+      api-|<br>
+          |android.js     ##安卓原生接口列表的js<br>
+          |xxx.js         ##xxx对应vue组件名称，用以存储对应组件的api事件的js<br>
+          |request.js     ##请求方法，封装api接口及拦截器的js+<br>
+      |<br>
+      assets-|<br>
+      |<br>
+      components-|        ##存储对应vue组件的地方<br>
+      |<br>
+      router-|            ##路由<br>
+      |<br>
+      style-|             ##存储公共样式表<br>
+      |<br>
+      utils-|             ##工具<br>
+            |throwErr.js  ##拦截接口异常事件<br>
+            |ziti.js      ##调整移动端字体font-size 暂未启用<br>
+      |<br>
+      vuex- |<br>
+            |store.js     ##状态管理器，包括了state,mutation，用于存储token用户状态<br>
+
+
+>>>>>>> ae01644e9b3a8cf71a3a29a2da248fb92d2ed9cd
 
 
 
@@ -108,6 +138,7 @@ npm run e2e
 npm test
 ```
 
+<<<<<<< HEAD
 
 ## npm install可能出现的问题，可能源于搭建框架时的mac和win的跨平台
 
@@ -122,4 +153,6 @@ npm install chromedriver --chromedriver_cdnurl=http://cdn.npm.taobao.org/dist/ch
 
 ```
 
+=======
+>>>>>>> ae01644e9b3a8cf71a3a29a2da248fb92d2ed9cd
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

@@ -14,6 +14,7 @@ module.exports = {
     "postcss-cssnext": {},
     "postcss-px-to-viewport": {
       //设计图宽度为750
+<<<<<<< HEAD
       viewportWidth: 750,
       // 视窗的高度，根据750设备的宽度来指定，一般指定1334，也可以不配置
       viewportHeight: 1334,
@@ -25,6 +26,17 @@ module.exports = {
       minPixelValue: 1,
       //允许在媒体查询中转换`px`
       mediaQuery: false,
+=======
+      viewportWidth: 375,
+      //小数点位数
+      unitPrecision: 3,
+      viewportUnit: 'vw',
+      selectorBlackList: ['.ignore', '.hairlines'],
+      //px的最小值
+      minPixelValue: 1,
+      //允许在媒体查询中转换`px`
+      mediaQuery: false
+>>>>>>> ae01644e9b3a8cf71a3a29a2da248fb92d2ed9cd
     },
     "postcss-viewport-units": {},
     //版本冲突暂时停止使用cssnano，css压缩
